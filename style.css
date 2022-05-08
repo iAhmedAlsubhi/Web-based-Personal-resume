@@ -1,0 +1,247 @@
+body {
+    padding: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+padding-bottom: 2rem;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
+
+header ul li {
+    padding: 0 2rem;
+    
+}
+
+header h1 {
+
+    font-family: 'Amatic SC', cursive;
+
+    font-family: 'Source Code Pro', monospace;
+
+    
+}
+
+
+
+#about {
+
+    text-align: center;
+}
+
+#about h1{
+
+    
+    font-size: 4rem;
+  
+}
+
+#about p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin: 1rem;
+    text-align: center;
+    padding: 3rem;
+    
+}
+
+#education {
+    margin: 3rem;
+}
+
+#bachelor {
+    margin: 3rem;
+}
+
+img {
+    height: 8rem;
+   
+}
+
+#linkedin a{
+    padding-bottom: 2rem;
+}
+
+#linkedin img{
+    width: 4rem;
+    height: 4rem;
+}
+.skills-imgs{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills {
+    margin: 3rem;
+    padding: 2rem;
+}
+
+#certificates {
+    padding: 2rem
+}
+
+#certificates img {
+    height: 12rem;
+}
+
+.certs-imgs {
+    /* padding-right: 2.5rem; */
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer {
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+footer img {
+    height: 1rem;
+    padding: 0rem;
+}
+
+#contacts {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: #676FA3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#side-drawer:target {
+    display: block;
+}
+
+#side-drawer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 4rem 1rem;
+}
+
+#side-drawer a {
+    color: #EEF2FF;
+    font-size: 2rem;
+}
+
+#side-drawer li {
+    margin: 1rem 0;
+}
+
+main h2 , footer h2 , nav ul li a{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+header {
+    background-color: #CDDEFF;
+    padding: 1rem;
+}
+
+
+main {
+    background-color: #EEF2FF;
+    padding: 1rem;
+    margin: 0;
+}
+
+footer {
+    background-color: #676FA3;
+    padding: 1rem;
+    margin: 0;
+    color: #EEF2FF;
+}
+
+.bsc-text {
+    font-family: 'Bangers', cursive;
+}
+
+
+
+@media screen and (max-width : 480px) {
+    .skills-imgs {
+        flex-direction : column;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+    #bsc-text {
+        
+    }
+    #education {
+        
+    }
+
+    header ul {
+        display: none;
+    }
+
+    /* #menu-icon {
+        display: block;
+        float: right;
+        width: 2rem;
+        
+        
+    } */
+
+    #about {
+        padding-top: 3rem;
+    }
+
+    .menu-btn {
+        float: right;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    
+    .menu-btn span{
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+    
+}
